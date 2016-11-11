@@ -1,0 +1,268 @@
+/*     body & wrapper size/style     */
+
+body {
+    width: 1280px;
+    height: 1060px;
+    margin: 0 auto;
+    background-image: url('../img/bg-img.jpg');
+    background-position: top center;
+    background-repeat: round;
+    font-size: 16px;
+}
+
+.wrapper {
+    width: 1020px;
+    height: 990px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/*     Page font styles     */
+
+/*     1. First header section font styles     */
+
+.logo-p-fontstyle, .contacts-p-fontstyle {
+    font-size: 0.8em;
+    line-height: 17px;
+    font-family: "Times New Roman";
+    color: #128aa7;
+}
+
+.contacts-h3-fontstyle {
+    font-size: 0.9em;
+    line-height: 27px;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    color: #128aa7;
+}
+
+.country-menu-li-a-fontstyle {
+    font-size: 0.7em;
+    font-family: "Times New Roman";
+    color: #128aa7;
+}
+
+/*     2. Second header section font styles     */
+
+.main-menu-li-a-fontstyle, .submenu-li-a-fontstyle {
+    font-size: 0.9em;
+    font-family: "Times New Roman";
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu-arrow-size {
+    font-size: 0.5em;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+/*     3. Content font styles     */
+
+.information-h2-fontstyle, .news-h2-fontstyle {
+    font-size: 1.125em;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    color: #000;
+}
+
+.information-p-fontstyle, .news-p-fontstyle {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: "Times New Roman";
+    color: #000;
+}
+
+/*     4. Copyright font styles     */
+
+.copyright-small-fontstyle {
+    font-size: 1em;
+    font-family: "Times New Roman";
+    color: #ffffff;
+}
+
+/*     Header size/style     */
+
+header {
+    width: 1020px;
+    height: 453px;
+}
+
+.first-header-section {
+    height: 181px;
+}
+
+.right-side {
+    float: right;
+    width: 405px;
+    height: 181px;
+}
+
+.second-header-section {
+    height: 271px;
+}
+
+/*     First header section elements size/style     */
+
+/*     1. Logotype style/size     */
+
+.logo {
+    float: left;
+    width: 283px;
+    margin: 17px 0 0 25px;
+}
+
+.logo a {
+    display: block;
+    height: 164px;
+    position: relative;
+}
+
+.logo a p {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+}
+
+/*     2. Contacts style/size     */
+
+.contacts {
+    display: block;
+    width: 141px;
+    height: 107px;
+    margin-top: 10px;
+    margin-left: 240px;
+}
+
+/*     3. First header menu (country-list menu) style/size     */
+
+.first-header-menu {
+    width: 342px;
+    margin-left: 39px;
+}
+
+.country-menu>li {
+    display: inline-block;
+}
+
+.country-menu>li>a {
+    display: inline-block;
+    width: 57px;
+    height: 60px;
+    text-align: center;
+}
+
+/*     Second header section elements size/style     */
+
+/*     1. Banner size/style     */
+
+.banner {
+    height: 237px;
+    box-sizing: border-box;
+    border-top: 1px solid #128aa7;
+    border-bottom: 1px solid #cacbcb;
+}
+
+.banner>img {
+    width: 100%;
+    height: 100%;
+}
+
+/*     2. Second header menu (main menu) style/size     */
+
+/*     2.1 Main menu style/size     */
+
+.second-header-menu {
+    height: 34px;
+    position: relative;
+    z-index: 1;
+    background-color: #343434;
+    box-shadow: 0px 3px 3px 0.6px rgba(0, 0, 0, 1);
+}
+
+.main-menu {
+    margin-left: 33px;
+}
+
+.main-menu>li {
+    display: inline-block;
+    position: relative;
+}
+
+.main-menu>li>a {
+    display: block;
+    padding: 10.5px 35px;
+}
+
+/*     2.2 Submenu style/size     */
+
+.submenu {
+    display: none;
+    width: 85%;
+    position: absolute;
+    top: 35px;
+    left: 29px;
+    background-color: #343434;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.8);
+}
+
+.submenu>li>a {
+    display: block;
+    padding: 5px 6px;
+}
+
+.main-menu li:hover>.submenu {
+    display: block;
+}
+
+/*     Content elements size/style     */
+
+.content {
+    width: 1020px;
+    height: 537px;
+    font-size: 0;
+    text-align: center;
+}
+
+.information {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    width: 20.5%;
+    height: 100%;
+    padding-top: 11px;
+    box-sizing: border-box;
+    background-color: #edeef0;
+    border-right: 1px solid #cacbcb;
+}
+
+.free-space {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    width: 59%;
+    height: 98%;
+    padding-top: 11px;
+}
+
+.news {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    width: 20.5%;
+    height: 100%;
+    padding-top: 11px;
+    box-sizing: border-box;
+    background-color: #edeef0;
+    border-left: 1px solid #cacbcb;
+}
+
+/*     Copyright size/style     */
+
+.copyright {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+}
